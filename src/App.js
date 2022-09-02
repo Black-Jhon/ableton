@@ -1,5 +1,5 @@
 import React from "react";
-import AnimateRoute from "./components/framer/AnimateRoute";
+import AnimateRoute from "./components/framerConfig/AnimateRoute";
 
 const App = () => {
   return (
