@@ -34,7 +34,7 @@ const MainNavbar = () => {
           </p>
         </div>
       </div>
-      <hr className="border-b border-gray-200 my-3" />
+      <hr className="border-b border-gray-200 mt-3" />
     </>
   );
 };
