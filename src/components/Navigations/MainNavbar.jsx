@@ -1,7 +1,7 @@
 import React from "react";
-import MoreOption from "./MoreOption";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo.png";
+import logo from "../../assets/images/logo.png";
+import MoreOption from "./MoreOption";
 
 const MainNavbar = () => {
   return (

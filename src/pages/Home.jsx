@@ -1,7 +1,7 @@
 import React from "react";
-import HeroSection from "../components/HeroSection";
-import MainNavbar from "../components/MainNavbar";
-import SmallNavbar from "../components/SmallNavbar";
+import HeroSection from "../components/HeroSection/HeroSection";
+import MainNavbar from "../components/Navigations/MainNavbar";
+import SmallNavbar from "../components/Navigations/SmallNavbar";
 
 const Home = () => {
   return (
