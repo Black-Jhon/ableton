@@ -6,7 +6,7 @@ import MoreOption from "./MoreOption";
 const MainNavbar = () => {
   return (
     <>
-      <div className=" flex justify-between lg:mx-12 mx-2 mt-5">
+      <div className="flex justify-between lg:mx-12 mx-2 mt-5">
         <div className="left">
           <div className="flex gap-7 font-bold capitalize">
             <Link to="/">

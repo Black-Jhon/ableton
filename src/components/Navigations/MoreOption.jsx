@@ -9,7 +9,7 @@ const MoreOption = () => {
   };
 
   return (
-    <div className="hidden lg:block lg:w-40">
+    <div className="hidden lg:block lg:w-[25rem]">
       <div className="grid" onClick={handleOpen}>
         <div className="cursor-pointer flex items-center gap-2">
           <span className="text-[#ff764d]">more</span> {opened ? <AiOutlineMinus className="text-[#ff764d]" /> : <AiOutlinePlus className="text-[#ff764d]" />}
