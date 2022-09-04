@@ -7,7 +7,7 @@ const ThirdSection = () => {
     <div>
       <div className="flex lg:ml-32 mr-0 mx-2 relative mb-32">
         <div className="leftImage">
-          <img src={left} alt="" className="lg:h-[47rem] lg:w-[55%] absolute mr-20 object-cover lg:mt-32" />
+          <img src={left} alt="" className="lg:h-[47rem] lg:w-[50%] absolute mr-20 object-cover lg:mt-32" />
         </div>
 
         <div className="rightImage thirdSectionRight lg:h-[65rem] bg-[#FBFFA7] lg:ml-[35rem]">
