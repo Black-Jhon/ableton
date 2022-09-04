@@ -1,4 +1,5 @@
 import React from "react";
+import FourthSection from "../components/FourthSection/FourthSection";
 import HeroSection from "../components/HeroSection/HeroSection";
 import MainNavbar from "../components/Navigations/MainNavbar";
 import SmallNavbar from "../components/Navigations/SmallNavbar";
@@ -14,6 +15,7 @@ const Home = () => {
         <HeroSection />
         <ThirdSection />
         <VideoSection />
+        <FourthSection />
       </div>
     </div>
   );
