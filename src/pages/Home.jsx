@@ -4,6 +4,7 @@ import FourthSection from "../components/FourthSection/FourthSection";
 import HeroSection from "../components/HeroSection/HeroSection";
 import MainNavbar from "../components/Navigations/MainNavbar";
 import SmallNavbar from "../components/Navigations/SmallNavbar";
+import SeventhSection from "../components/SeventhSection/SeventhSection";
 import SixthSection from "../components/SixthSection/SixthSection";
 import ThirdSection from "../components/ThirdSection/ThirdSection";
 import VideoSection from "../components/VideoSection/VideoSection";
@@ -20,6 +21,7 @@ const Home = () => {
         <FourthSection />
         <FifthSection />
         <SixthSection />
+        <SeventhSection />
       </div>
     </div>
   );
