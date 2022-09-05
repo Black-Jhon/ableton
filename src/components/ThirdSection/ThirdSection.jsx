@@ -1,6 +1,6 @@
 import React from "react";
-import left from "../../assets/images/thirdTwo.webp";
-import right from "../../assets/images/ThirdOne.webp";
+import left from "../../assets/images/thirdTwo.jpg";
+import right from "../../assets/images/ThirdOne.jpg";
 
 const ThirdSection = () => {
   return (
@@ -10,7 +10,7 @@ const ThirdSection = () => {
       </div>
 
       <div className="bg-[#fbffa7] max-w-[70%] h-[43rem] ml-[30%]">
-        <div className="max-w-[50%] lg:mt-48 lg:ml-96">
+        <div className="max-w-[50%] lg:mt-40 lg:ml-96">
           <img src={right} className="object-cover" alt="" />
         </div>
       </div>
