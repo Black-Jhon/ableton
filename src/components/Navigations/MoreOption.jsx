@@ -19,7 +19,7 @@ const MoreOption = () => {
             {/* Top */}
             <div className="">
               <h1 className="text-xl font-mono">More on Ableton.com:</h1>
-              <div className="md:flex gap-5 capitalize font-thin mt-5 text-sm">
+              <div className="md:flex gap-5 capitalize font-thin mt-5 text-sm flex-wrap">
                 <p className="cursor-pointer whitespace-nowrap">blog</p>
                 <p className="cursor-pointer whitespace-nowrap">ableton for the classroom</p>
                 <p className="cursor-pointer whitespace-nowrap">ableton for colleges and universities</p>
@@ -33,7 +33,7 @@ const MoreOption = () => {
             {/* Bottom */}
             <div className="mt-10 text-xl">
               <h1>More from Ableton:</h1>
-              <div className="flex gap-16 my-5">
+              <div className="flex gap-5 flex-wrap my-5">
                 <div className="grid">
                   <p className="text-base font-mono">Loop</p>
                   <p className="font-thin text-sm">Watch Talks, Performances and Features from Ableton's Summit for Music Makers</p>
