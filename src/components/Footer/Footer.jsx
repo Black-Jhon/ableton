@@ -81,7 +81,7 @@ const Footer = () => {
             <h1 className="font-mono font-bold">Ableton Sign up to our newsletter</h1>
             <p className="font-mono flex flex-wrap">Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.</p>
             <div className="whitespace-nowrap">
-              <input type="text" className="w-96 px-3 py-2 bg-[#eeeeee] mt-3" placeholder="Email Address" />
+              <input type="text" className="w-64 focus:outline-none px-3 py-2 bg-[#eeeeee] mt-3" placeholder="Email Address" />
               <button className="bg-[#0000ff] capitalize px-3 py-2 border-none w-28 text-white font-bold">sign up</button>
             </div>
           </div>
