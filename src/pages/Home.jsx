@@ -1,5 +1,6 @@
 import React from "react";
 import FifthSection from "../components/FifithSection/FifthSection";
+import Footer from "../components/Footer/Footer";
 import FourthSection from "../components/FourthSection/FourthSection";
 import HeroSection from "../components/HeroSection/HeroSection";
 import MainNavbar from "../components/Navigations/MainNavbar";
@@ -22,6 +23,7 @@ const Home = () => {
         <FifthSection />
         <SixthSection />
         <SeventhSection />
+        <Footer />
       </div>
     </div>
   );
