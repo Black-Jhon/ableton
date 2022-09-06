@@ -25,7 +25,7 @@ const Footer = () => {
               <BiChevronRight className="text-xl" />
             </div>
 
-            <div className="flex text-2xl gap-2">
+            <div className="flex items-center text-2xl gap-2">
               <div className="bg-[#3477f2] px-1 py-1 text-white cursor-pointer">
                 <BsFacebook />
               </div>
