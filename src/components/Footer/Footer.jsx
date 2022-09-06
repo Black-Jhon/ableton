@@ -1,14 +1,26 @@
-import React from "react";
+// @ts-nocheck
+import React, { useMemo, useState } from "react";
 import { BiChevronRight } from "react-icons/bi";
 import { BsFacebook, BsTwitter, BsYoutube, BsInstagram } from "react-icons/bs";
+import Select from "react-select";
+import countryList from "react-select-country-list";
+import logo from "../../assets/images/logo.png";
 
 const Footer = () => {
+  const [value, setValue] = useState("");
+  const options = useMemo(() => countryList().getData(), []);
+
+  const changeHandler = (value) => {
+    setValue(value);
+  };
+
   return (
     <div className="lg:mx-32 my-40">
       <div className="grid gap-24">
         <h1 className="font-bold text-5xl font-mono">Ableton</h1>
 
-        <div className="lg:flex grid gap-20">
+        {/* Top */}
+        <div className="grid grid-cols-3">
           <div className="grid gap-2 text-sm">
             <div className="flex items-center gap-1 cursor-pointer">
               <h1 className="font-mono whitespace-nowrap">Register Live or Push </h1>
@@ -65,26 +77,80 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="whitespace-nowrap text-sm grid gap-2">
+          <div className="text-sm grid gap-2">
             <h1 className="font-mono font-bold">Ableton Sign up to our newsletter</h1>
-            <p className="font-mono">Enter your email address to stay up to date with the latest offers, </p>
-            <p className="font-mono">tutorials, downloads, surveys and more.</p>
-            <div>
+            <p className="font-mono flex flex-wrap">Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.</p>
+            <div className="whitespace-nowrap">
               <input type="text" className="w-96 px-3 py-2 bg-[#eeeeee] mt-3" placeholder="Email Address" />
               <button className="bg-[#0000ff] capitalize px-3 py-2 border-none w-28 text-white font-bold">sign up</button>
             </div>
           </div>
         </div>
 
-        <div className="lg:flex grid gap-10 justify-between">
-          <div className="left">left</div>
-          <div className="middle">middle</div>
-          <div className="right">right</div>
+        {/* Middle */}
+        <div className="grid grid-cols-3">
+          <div className="grid gap-2 text-sm">
+            <h1 className="font-bold">Community</h1>
+
+            <div className="grid gap-2 whitespace-nowrap">
+              <div className="flex items-center gap-1 cursor-pointer">
+                <h1 className="font-mono">Find Ableton User Groups </h1>
+                <BiChevronRight className="text-xl" />
+              </div>
+
+              <div className="flex items-center gap-1 cursor-pointer">
+                <h1 className="font-mono">Find Certified Training </h1>
+                <BiChevronRight className="text-xl" />
+              </div>
+
+              <div className="flex items-center gap-1 cursor-pointer">
+                <h1 className="font-mono">Become a Certified Trainer </h1>
+                <BiChevronRight className="text-xl" />
+              </div>
+            </div>
+          </div>
+
+          <div className="middle">
+            <div className="grid gap-2 text-sm">
+              <h1 className="font-bold">Community</h1>
+
+              <div className="grid gap-2 whitespace-nowrap">
+                <div className="flex items-center gap-1 cursor-pointer">
+                  <h1 className="font-mono">Find Distributors </h1>
+                  <BiChevronRight className="text-xl" />
+                </div>
+
+                <div className="flex items-center gap-1 cursor-pointer">
+                  <h1 className="font-mono">Try Push in-store </h1>
+                  <BiChevronRight className="text-xl" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="right">
+            <h1 className="font-bold font-mono">Language and Location</h1>
+
+            <div className="flex items-center">
+              <Select options={options} value={value} className="py-2" onChange={changeHandler} />
+            </div>
+          </div>
         </div>
 
-        <div className="lg:flex grid gap-10 justify-between">
-          <div className="left">left</div>
-          <div className="right">right</div>
+        {/* Bottom */}
+        <div className="grid grid-cols-2 gap-[33%]">
+          <div className="flex items-center gap-3 whitespace-nowrap">
+            <span className="font-bold font-mono text-xs capitalize">contact us</span>
+            <span className="font-bold font-mono text-xs capitalize">press resources</span>
+            <span className="font-bold font-mono text-xs capitalize">legal info</span>
+            <span className="font-bold font-mono text-xs capitalize">cookie settings</span>
+            <span className="font-bold font-mono text-xs capitalize">imprint</span>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <h1>made in Nigeria</h1>
+            <img src={logo} alt="" />
+          </div>
         </div>
       </div>
     </div>
