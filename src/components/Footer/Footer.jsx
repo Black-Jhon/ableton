@@ -65,13 +65,13 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="whitespace-nowrap text-sm grid">
+          <div className="whitespace-nowrap text-sm grid gap-2">
             <h1 className="font-mono font-bold">Ableton Sign up to our newsletter</h1>
             <p className="font-mono">Enter your email address to stay up to date with the latest offers, </p>
             <p className="font-mono">tutorials, downloads, surveys and more.</p>
             <div>
-              <input type="text" className="border border-gray-500" />
-              <button className="bg-[#0000ff] capitalize">sign up</button>
+              <input type="text" className="w-96 px-3 py-2 bg-[#eeeeee] mt-3" placeholder="Email Address" />
+              <button className="bg-[#0000ff] capitalize px-3 py-2 border-none w-28 text-white font-bold">sign up</button>
             </div>
           </div>
         </div>
