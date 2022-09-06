@@ -128,11 +128,11 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="right">
-            <h1 className="font-bold font-mono">Language and Location</h1>
+          <div className="">
+            <h1 className="font-bold font-mono mb-1">Language and Location</h1>
 
             <div className="flex items-center">
-              <Select options={options} value={value} className="py-2" onChange={changeHandler} />
+              <Select options={options} value={value} onChange={changeHandler} />
             </div>
           </div>
         </div>
