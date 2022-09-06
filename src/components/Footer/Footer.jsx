@@ -2,6 +2,7 @@
 import React, { useMemo, useState } from "react";
 import { BiChevronRight } from "react-icons/bi";
 import { BsFacebook, BsTwitter, BsYoutube, BsInstagram } from "react-icons/bs";
+import { Link } from "react-router-dom";
 import Select from "react-select";
 import countryList from "react-select-country-list";
 import logo from "../../assets/images/logo.png";
@@ -148,8 +149,10 @@ const Footer = () => {
           </div>
 
           <div className="flex items-center gap-2">
-            <h1>made in Nigeria</h1>
-            <img src={logo} alt="" />
+            <h1 className="capitalize">made in nigeria</h1>
+            <Link to="/">
+              <img src={logo} alt="" />
+            </Link>
           </div>
         </div>
       </div>
