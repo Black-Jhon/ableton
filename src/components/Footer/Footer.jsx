@@ -16,7 +16,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="lg:mx-32 mx-10 md:w-[85%] w-[60%] lg:my-40 my-10">
+    <div className="lg:mx-32 mx-5 md:w-[85%] w-[60%] lg:my-40 my-10">
       <div className="grid lg:gap-24 gap-10">
         <h1 className="font-bold text-5xl font-mono">Ableton</h1>
 
