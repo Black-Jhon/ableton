@@ -16,12 +16,12 @@ const Footer = () => {
   };
 
   return (
-    <div className="lg:mx-32 my-40">
+    <div className="lg:mx-32 mx-2 lg:my-40 my-10">
       <div className="grid gap-24">
         <h1 className="font-bold text-5xl font-mono">Ableton</h1>
 
         {/* Top */}
-        <div className="grid grid-cols-3">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
           <div className="grid gap-2 text-sm">
             <div className="flex items-center gap-1 cursor-pointer">
               <h1 className="font-mono whitespace-nowrap">Register Live or Push </h1>
@@ -83,13 +83,13 @@ const Footer = () => {
             <p className="font-mono flex flex-wrap">Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.</p>
             <div className="whitespace-nowrap">
               <input type="text" className="w-64 focus:outline-none px-3 py-2 bg-[#eeeeee] mt-3" placeholder="Email Address" />
-              <button className="bg-[#0000ff] capitalize px-3 py-2 border-none w-28 text-white font-bold">sign up</button>
+              <button className="bg-[#0000ff] capitalize px-3 py-2 border-none lg:w-28 text-white font-bold">sign up</button>
             </div>
           </div>
         </div>
 
         {/* Middle */}
-        <div className="grid grid-cols-3">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
           <div className="grid gap-2 text-sm">
             <h1 className="font-bold">Community</h1>
 
@@ -139,8 +139,8 @@ const Footer = () => {
         </div>
 
         {/* Bottom */}
-        <div className="grid grid-cols-2 gap-[33%]">
-          <div className="flex items-center gap-3 whitespace-nowrap">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-[33%]">
+          <div className="flex items-center flex-wrap gap-3 whitespace-nowrap">
             <span className="font-bold font-mono text-xs capitalize">contact us</span>
             <span className="font-bold font-mono text-xs capitalize">press resources</span>
             <span className="font-bold font-mono text-xs capitalize">legal info</span>
