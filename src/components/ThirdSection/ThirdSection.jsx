@@ -4,7 +4,7 @@ import right from "../../assets/images/ThirdOne.jpg";
 
 const ThirdSection = () => {
   return (
-    <div className="my-24 lg:ml-32 flex relative">
+    <div className="lg:my-24 my-10 lg:ml-32 flex relative">
       <div className="absolute lg:max-w-[40rem] md:max-w-[23rem] max-w-[10rem] lg:left-0 left-8 lg:top-28 top-10">
         <img src={left} className="object-cover" alt="" />
       </div>

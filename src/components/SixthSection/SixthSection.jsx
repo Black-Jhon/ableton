@@ -5,7 +5,7 @@ import sixb from "../../assets/images/sixb.jpg";
 const SixthSection = () => {
   return (
     <div>
-      <div className="lg:my-40">
+      <div className="lg:my-40 my-10">
         <div className="flex justify-center">
           <h1 className="lg:w-[50rem] md:w-[40rem] w-80 lg:text-xl md:text-lg text-sm lg:tracking-wider lg:leading-loose font-bold font-mono">
             We’re passionate about what we do, but we’re equally passionate about improving who we are.
@@ -19,7 +19,7 @@ const SixthSection = () => {
         </p>
       </div>
 
-      <div className="my-24 lg:mr-32 flex relative">
+      <div className="lg:my-24 my-10 lg:mr-32 flex relative">
         <div className="bg-[#d5b3ff] w-[65%] lg:h-auto h-96">
           <div className="lg:grid flex lg:h-auto h-80 lg:gap-32 lg:max-w-[50%] max-w-[60%] object-cover lg:ml-32 md:ml-28 ml-5 mb-32">
             <img src={sixa} className="lg:mt-32 mt-16" alt="" />

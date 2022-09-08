@@ -5,7 +5,7 @@ import { BiChevronRight } from "react-icons/bi";
 const SeventhSection = () => {
   return (
     <div>
-      <div className="lg:my-40">
+      <div className="lg:my-40 my-10">
         <div className="flex justify-center">
           <h1 className="lg:w-[50rem] md:w-[40rem] w-80 lg:text-xl md:text-lg text-sm lg:tracking-wider lg:leading-loose font-bold font-mono">
             We want our employees to love it here. Since we’re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.{" "}
@@ -37,7 +37,7 @@ const SeventhSection = () => {
           </div>
         </div>
       </div>
-      <hr className="text-gray-900 my-40" />
+      <hr className="text-gray-900 lg:my-40 my-10" />
     </div>
   );
 };
