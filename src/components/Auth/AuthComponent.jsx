@@ -14,7 +14,7 @@ const AuthComponent = () => {
 
   return (
     <div className="flex justify-center my-10">
-      <div className="grid gap-5">
+      <div className="grid gap-5 lg:w-auto w-[91%]">
         <h1 className="capitalize font-bold font-mono text-4xl">{isSignedUp ? "register" : "login"}</h1>
         <hr />
 
@@ -49,7 +49,7 @@ const AuthComponent = () => {
                   <input type="text" className="px-3 py-2 bg-[#eeeeee] focus:outline-none" name="firstname" placeholder="Optional" />
                 </div>
 
-                <p className="text-xs text-[#42A3B0] font-bold font-mono">So that we know what to call you if we email you.</p>
+                <p className="lg:text-left text-center text-xs text-[#42A3B0] font-bold font-mono">So that we know what to call you if we email you.</p>
 
                 <div className="grid gap-1">
                   <label htmlFor="email" className="text-sm font-bold font-mono">

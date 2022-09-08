@@ -16,7 +16,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="lg:mx-32 mx-5 md:w-[85%] w-[60%] lg:my-40 my-10">
+    <div className="lg:mx-32 md:mx-10 mx-5 md:w-[85%] lg:my-40 my-10">
       <div className="grid lg:gap-24 gap-10">
         <h1 className="font-bold text-5xl font-mono">Ableton</h1>
 
@@ -139,16 +139,16 @@ const Footer = () => {
         </div>
 
         {/* Bottom */}
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-[33%]">
-          <div className="flex items-center lg:flex-auto flex-wrap gap-3 whitespace-nowrap">
+        <div className="grid lg:grid-cols-2 grid-cols-1 gap-[37%]">
+          <div className="flex items-center flex-wrap gap-3 whitespace-nowrap">
             <span className="font-bold font-mono text-xs capitalize">contact us</span>
             <span className="font-bold font-mono text-xs capitalize">press resources</span>
             <span className="font-bold font-mono text-xs capitalize">legal info</span>
             <span className="font-bold font-mono text-xs capitalize">cookie settings</span>
-            <span className="font-bold font-mono text-xs capitalize">imprint</span>
+            {/* <span className="font-bold font-mono text-xs capitalize">imprint</span> */}
           </div>
 
-          <div className="flex items-center gap-2 mb-10">
+          <div className="flex items-center gap-2 lg:mb-0 mb-10">
             <h1 className="capitalize">made in nigeria</h1>
             <Link to="/">
               <img src={logo} alt="" />
