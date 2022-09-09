@@ -15,11 +15,11 @@ const MoreOption = () => {
           <span className="text-[#ff764d]">more</span> {opened ? <AiOutlineMinus className="text-[#ff764d]" /> : <AiOutlinePlus className="text-[#ff764d]" />}
         </div>
         {opened && (
-          <div className="my-10">
+          <div className="md:my-10 lg:w-auto w-[90%]">
             {/* Top */}
             <div className="">
               <h1 className="text-xl font-mono">More on Ableton.com:</h1>
-              <div className="lg:flex flex-wrap gap-5 capitalize font-thin mt-5 text-sm">
+              <div className="lg:flex flex-wrap gap-5 capitalize font-thin md:mt-5 mt-1 text-sm">
                 <p className="cursor-pointer whitespace-nowrap">blog</p>
                 <p className="cursor-pointer whitespace-nowrap">ableton for the classroom</p>
                 <p className="cursor-pointer whitespace-nowrap">ableton for colleges and universities</p>
@@ -31,9 +31,9 @@ const MoreOption = () => {
             </div>
 
             {/* Bottom */}
-            <div className="mt-10 text-xl">
+            <div className="lg:mt-10 mt-2 text-xl">
               <h1>More from Ableton:</h1>
-              <div className="lg:flex gap-5 flex-wrap my-5">
+              <div className="lg:flex gap-5 flex-wrap md:my-5 my-1">
                 <div className="grid">
                   <p className="text-base font-mono">Loop</p>
                   <p className="font-thin text-sm">Watch Talks, Performances and Features from Ableton's Summit for Music Makers</p>

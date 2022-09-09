@@ -34,7 +34,7 @@ const MainNavbar = () => {
         </div>
 
         <div className="">
-          <ul className="right font-bold flex mt-2 gap-12">
+          <ul className="right font-bold lg:flex grid lg:mt-2 gap-12">
             <li className="capitalize text-[#2971ff] whitespace-nowrap hidden lg:block font-mono">try live for free</li>
             <li className="whitespace-nowrap text-xs mt-1 hidden lg:block">
               <Link to="auth" className="font-mono">
@@ -53,21 +53,21 @@ const MainNavbar = () => {
         <div
           className={
             mobileNav
-              ? "lg:hidden fixed w-screen h-screen left-0 top-16 capitalize flex-col bg-[#0000ff] text-white z-50 ease-in-out duration-300"
+              ? "lg:hidden absolute w-screen h-screen -left-2 top-12 capitalize flex-col bg-[#0000ff] text-white z-50 ease-in-out duration-300"
               : "fixed left-[-100%] z-50 ease-in-out duration-300 w-screen h-screen"
           }
         >
           <div>
             <ul className="w-full p-2">
-              <li className="block lg:hidden cursor-pointer font-mono mt-2">
+              <li className="block lg:hidden cursor-pointer font-mono md:mt-2 mt-1">live</li>
+              <li className="block lg:hidden cursor-pointer font-mono md:mt-2 mt-1">push</li>
+              <li className="block lg:hidden cursor-pointer font-mono md:mt-2 mt-1">link</li>
+              <li className="block lg:hidden cursor-pointer font-mono md:mt-2 mt-1">shop</li>
+              <li className="block lg:hidden cursor-pointer font-mono md:mt-2 mt-1">packs</li>
+              <li className="block lg:hidden cursor-pointer font-mono md:mt-2 mt-1">help</li>{" "}
+              <li className="block lg:hidden cursor-pointer font-mono md:mt-2 mt-1">
                 <MoreOption />
               </li>
-              <li className="block lg:hidden cursor-pointer font-mono mt-2">live</li>
-              <li className="block lg:hidden cursor-pointer font-mono mt-2">push</li>
-              <li className="block lg:hidden cursor-pointer font-mono mt-2">link</li>
-              <li className="block lg:hidden cursor-pointer font-mono mt-2">shop</li>
-              <li className="block lg:hidden cursor-pointer font-mono mt-2">packs</li>
-              <li className="block lg:hidden cursor-pointer font-mono mt-2">help</li>
             </ul>
           </div>
 
