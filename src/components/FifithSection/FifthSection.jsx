@@ -18,7 +18,7 @@ const FifthSection = () => {
       </div>
 
       <div className="lg:my-40 my-10 lg:mx-0 mx-4 flex justify-center">
-        <img src={fifth} alt="" />
+        <img src={fifth} alt="" className="object-cover" />
       </div>
     </div>
   );
