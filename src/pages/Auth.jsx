@@ -8,9 +8,11 @@ const Auth = () => {
   return (
     <div>
       <MainNavbar />
-      <SmallNavbar />
-      <AuthComponent />
-      <Footer />
+      <div className="top-0 sticky">
+        <SmallNavbar />
+        <AuthComponent />
+        <Footer />
+      </div>
     </div>
   );
 };
