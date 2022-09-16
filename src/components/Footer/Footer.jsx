@@ -16,7 +16,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="lg:mx-32 md:mx-10 mx-5 md:w-[85%] lg:my-40 my-10">
+    <div data-aos="fade-up" data-aos-duration="3000" className="lg:mx-32 md:mx-10 mx-5 md:w-[85%] lg:my-40 my-10">
       <div className="grid lg:gap-24 gap-10">
         <h1 className="font-bold text-5xl font-mono">Ableton</h1>
 
@@ -80,10 +80,13 @@ const Footer = () => {
 
           <div className="text-sm grid gap-2">
             <h1 className="font-mono font-bold">Ableton Sign up to our newsletter</h1>
-            <p className="font-mono flex flex-wrap">Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.</p>
+            <p className="font-mono flex flex-wrap">Enter your email address to stay up to date with the latest offers,
+              tutorials, downloads, surveys and more.</p>
             <div className="whitespace-nowrap">
-              <input type="text" className="w-64 focus:outline-none px-3 py-2 bg-[#eeeeee] mt-3" placeholder="Email Address" />
-              <button className="bg-[#0000ff] capitalize px-3 py-2 border-none lg:w-28 text-white font-bold">sign up</button>
+              <input type="text" className="w-64 focus:outline-none px-3 py-2 bg-[#eeeeee] mt-3"
+                     placeholder="Email Address" />
+              <button className="bg-[#0000ff] capitalize px-3 py-2 border-none lg:w-28 text-white font-bold">sign up
+              </button>
             </div>
           </div>
         </div>
