@@ -26,13 +26,13 @@ const SixthSection = () => {
 
       <div className="lg:my-24 my-10 lg:mr-32 flex relative">
         <div className="bg-[#d5b3ff] w-[65%] lg:h-auto h-96">
-          <div data-aos="fade-right" data-aos-duration="3000"
+          <div data-aos="fade-down" data-aos-duration="3000"
                className="lg:grid flex lg:h-auto h-80 lg:gap-32 lg:max-w-[50%] max-w-[60%] object-cover lg:ml-32 md:ml-28 ml-5 mb-32">
             <img src={sixa} className="lg:mt-32 mt-16" alt="" />
           </div>
         </div>
 
-        <div data-aos="fade-left" data-aos-duration="3000"
+        <div data-aos="fade-up" data-aos-duration="3000"
              className="lg:max-w-[40rem] max-w-[10rem] md:max-w-[20rem] lg:top-72 md:top-20 top-36  absolute lg:ml-[55%] md:ml-96 ml-48">
           <img src={sixb} className="" alt="" />
         </div>
