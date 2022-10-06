@@ -8,7 +8,7 @@ AOS.init();
 
 const HeroSection = () => {
   return (
-    <div data-aos="flip-up" data-aos-duration="3000" className="lg:mx-32">
+    <div className="lg:mx-32">
       <div className="relative">
         <img src={heroImage} alt="" className="w-full object-cover h-[48rem]" />
         <span
